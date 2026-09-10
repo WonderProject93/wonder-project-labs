@@ -14,4 +14,15 @@ expedition_cost = total_potion_cost + expedition_food_cost
 
 remaining_gold = starting_gold - expedition_cost
 
-print(f"========================\nEXPEDITION SUPPLY REPORT\n========================\nCharacter: {name}\nStaring Gold: {starting_gold}\nPotion Cost: {total_potion_cost}\nFood Cost: {expedition_food_cost}\nTotal Cost: {expedition_cost}\nGold Remaining: {remaining_gold}\n========================")
+print(
+    f"========================\n"
+    f"EXPEDITION SUPPLY REPORT\n"
+    f"========================\n"
+    f"Character: {name}\n"
+    f"Staring Gold: {starting_gold}\n"
+    f"Potion Cost: {total_potion_cost}\n"
+    f"Food Cost: {expedition_food_cost}\n"
+    f"Total Cost: {expedition_cost}\n"
+    f"Gold Remaining: {remaining_gold}\n"
+    f"========================"
+)
